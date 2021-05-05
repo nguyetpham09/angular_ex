@@ -1,0 +1,18 @@
+<div class="card" style="width: 18rem">
+    <img
+      class="card-img-top"
+      src="{{ product.imageUrl }}"
+      alt="{{ product.name }}"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ product.name }}</h5>
+      <p class="card-text">
+        {{ product.description }}
+      </p>
+      <h6>{{ product.price }}</h6><br/>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+      <a href="/product-infor/{{product.id}}" class="btn btn-success">Edit</a>
+    </div>
+  </div>
+  
+  
